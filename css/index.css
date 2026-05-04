@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(135deg, #d8abd9, #fff7ff, #fff5fa);
+  background: linear-gradient(135deg, #ff8ac6, #fff7ff, #fff5fa);
   color: #2c2c2c;
   transition: 0.4s;
   overflow-x: hidden;
