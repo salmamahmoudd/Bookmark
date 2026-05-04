@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+<button id="darkModeBtn">
+  <i class="fa-solid fa-moon"></i>
+</button>
+
+<div id="toast" class="toast-box d-none"></div>
+
+<main class="container text-center py-5">
+
+  <h1>Bookmark</h1>
+
+  <div class="search-box mt-4">
+    <input id="searchInput" type="text" placeholder="Search bookmarks...">
+  </div>
+
+  <div class="form-box mt-4">
+
+    <input id="bookmarkName" class="form-control mb-3" placeholder="Site Name">
+    <input id="bookmarkURL" class="form-control mb-3" placeholder="Site URL">
+
+    <button id="submitBtn">Add Bookmark</button>
+
+  </div>
+
+  <table class="table mt-5 text-center">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Visit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+
+    <tbody id="tableContent"></tbody>
+  </table>
+
+</main>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
